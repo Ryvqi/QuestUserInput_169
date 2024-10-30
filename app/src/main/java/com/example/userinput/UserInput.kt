@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 
 @Preview(showBackground = true)
 @Composable
-fun UserInput(){
+fun UserInput(modifier: Modifier = Modifier){
     var nama by remember {
         mutableStateOf("")
     }
